@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYS.XiAnComDept.BussLogic", "BYS.XiAnComDept.BussLogic\BYS.XiAnComDept.BussLogic.csproj", "{33EE95D9-CF2C-4CEF-BF34-16BE8FB4D615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUINavigationApp1", "C:\Users\v-elviss\Documents\Visual Studio 2012\Projects\WindowsTest\ModernUINavigationApp1\ModernUINavigationApp1.csproj", "{3E04F865-BB71-463E-BCCA-609AF559B1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSDD.ORM.Logic", "C:\Users\v-elviss\Documents\Visual Studio 2012\Projects\WindowsTest\SSDD.ORM.Logic\SSDD.ORM.Logic.csproj", "{32727EDD-CADB-4992-8943-1B6457DFEEFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYS.XiAnComDept.App", "BYS.XiAnComDept.App\BYS.XiAnComDept.App.csproj", "{B1C0A74F-0D1E-41AF-AD01-C48E839D693C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYS.AAPT.Common", "..\..\..\..\TeamStudy\Elvis\ElvisPortalUIAutomation\BYS.AAPT.Common\BYS.AAPT.Common.csproj", "{CE9F6FF5-1B5A-4C56-BC37-95B07551C57F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYS.XiAnComDept.BussLogic.UnitTest", "BYS.XianComDept.BussLogic.UnitTest\BYS.XiAnComDept.BussLogic.UnitTest.csproj", "{6F866DDB-E7F7-4F8D-82DC-0B96A748C796}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://xianwin8-v06:8080/tfs/appplat
+		SccProjectUniqueName0 = ..\\..\\..\\..\\TeamStudy\\Elvis\\ElvisPortalUIAutomation\\BYS.AAPT.Common\\BYS.AAPT.Common.csproj
+		SccProjectName0 = $/Shared\u0020Code/Elvis/ElvisPortalUIAutomation/BYS.AAPT.Common
+		SccAuxPath0 = http://xianwin8-v06:8080/tfs/appplat
+		SccLocalPath0 = ..\\..\\..\\..\\TeamStudy\\Elvis\\ElvisPortalUIAutomation\\BYS.AAPT.Common
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33EE95D9-CF2C-4CEF-BF34-16BE8FB4D615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33EE95D9-CF2C-4CEF-BF34-16BE8FB4D615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33EE95D9-CF2C-4CEF-BF34-16BE8FB4D615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33EE95D9-CF2C-4CEF-BF34-16BE8FB4D615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E04F865-BB71-463E-BCCA-609AF559B1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E04F865-BB71-463E-BCCA-609AF559B1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E04F865-BB71-463E-BCCA-609AF559B1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E04F865-BB71-463E-BCCA-609AF559B1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32727EDD-CADB-4992-8943-1B6457DFEEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32727EDD-CADB-4992-8943-1B6457DFEEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32727EDD-CADB-4992-8943-1B6457DFEEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32727EDD-CADB-4992-8943-1B6457DFEEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C0A74F-0D1E-41AF-AD01-C48E839D693C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C0A74F-0D1E-41AF-AD01-C48E839D693C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C0A74F-0D1E-41AF-AD01-C48E839D693C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C0A74F-0D1E-41AF-AD01-C48E839D693C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9F6FF5-1B5A-4C56-BC37-95B07551C57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9F6FF5-1B5A-4C56-BC37-95B07551C57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9F6FF5-1B5A-4C56-BC37-95B07551C57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9F6FF5-1B5A-4C56-BC37-95B07551C57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F866DDB-E7F7-4F8D-82DC-0B96A748C796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F866DDB-E7F7-4F8D-82DC-0B96A748C796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F866DDB-E7F7-4F8D-82DC-0B96A748C796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F866DDB-E7F7-4F8D-82DC-0B96A748C796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

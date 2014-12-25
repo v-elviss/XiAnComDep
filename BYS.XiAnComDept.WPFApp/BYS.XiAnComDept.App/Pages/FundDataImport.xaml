@@ -1,0 +1,22 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             xmlns:Controls="clr-namespace:BYS.XiAnComDept.App.Controls" x:Class="BYS.XiAnComDept.App.Pages.FundDataImport"
+             mc:Ignorable="d" 
+             d:DesignHeight="462" d:DesignWidth="600">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <TextBlock Text="选择EXCEL数据导入" Style="{StaticResource Heading2}" />
+                <TextBlock Text="EXCEL文件必须包含以下列：" />
+                <TextBlock Height="250" ><Run Text="企业名称"/><Run Language="zh-cn" Text="：企业名称必须是严格的企业全程，两个类似的企业名称， 如 &quot;西安成功技术信息有限公司&quot;和&quot;西安成功技术信息公司&quot;将会被认为是两个企业 。"/><LineBreak/><Run Language="zh-cn" Text="项目类别：应严格按照统一的类别输入。如&quot;出口奖励&quot;和&quot;出口奖金&quot;会被统计成不同的项目类别。"/><LineBreak/><Run Language="zh-cn" Text="项目信息：项目信息可以有多个字段，每个字段应该以&quot;project_&quot;开头，如&quot;project_出口金额&quot;,&quot;project_离岸交付金额&quot;。参照&quot;参考"/><Run Text="EXCEL"/><Run Language="zh-cn" Text="文件&quot;。"/><LineBreak/><Run Language="zh-cn" Text="年度 ：只输入数字即可 ，如 2014"/><LineBreak/><Run Language="zh-cn" Text="申报金额：只输入数字即可，单位是万元。如20.50"/><LineBreak/><Run Language="zh-cn" Text="状态：只有三种，未审核，基本通过，通过。"/><LineBreak/><Run Language="zh-cn" Text="尾款：只输入数字即可，单位是万元。如20.50"/><LineBreak/><Run Language="zh-cn" Text="备注：任意备注内容。"/><LineBreak/><Run Language="zh-cn"/><LineBreak/><Run Language="zh-cn" Text="如果某企业某年度某项目类别不存在项目数据，则会把该项目数据加入数据库。"/><LineBreak/><Run Language="zh-cn" Text="如果该企业某年度某项目类比已经存在数据，则会用EXCEL中的数据替换原数据。"/><LineBreak/><Run Language="zh-cn" Text="如果企业或者项目类别不存在，则会自动导入企业和项目类别信息。"/><LineBreak/><LineBreak/><Run Language="zh-cn"/><LineBreak/><LineBreak/><Run Language="zh-cn"/><LineBreak/><Run Language="zh-cn"/><LineBreak/><Run/></TextBlock>
+                <Button  Name="ButtonSelectExcelAndImport" Content="浏览要导入的EXCEL" HorizontalAlignment="Left" Margin="10,10,10,10" VerticalAlignment="Top" Width="200" Click="ButtonSelectExcelAndImport_Click"/>
+                <TextBlock x:Name="Msg" Text="" Foreground="#FFF51F1F" />
+                <Button Name="ButtonViewDemoExcel" Content="查看参考EXCEL" Style="{StaticResource LinkButton}"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,10" Click="ButtonViewDemoExcel_Click" ></Button>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

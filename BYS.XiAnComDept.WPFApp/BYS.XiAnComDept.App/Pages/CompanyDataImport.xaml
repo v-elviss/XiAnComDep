@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="BYS.XiAnComDept.App.Pages.CompanyDataInport"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" Width="643">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer Margin="0,0,0,100">
+            <StackPanel MinWidth="200">
+                <TextBlock Text="选择EXCEL数据导入" Style="{StaticResource Heading2}" />
+                <TextBlock Text="EXCEL文件必须包含以下列：" />
+                <Button Content="Button" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top" Width="75"/>
+            </StackPanel>
+            
+        </ScrollViewer>
+        
+    </Grid>
+</UserControl>
